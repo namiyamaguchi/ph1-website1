@@ -1,0 +1,166 @@
+/*ヘッダー*/
+header{
+    width: 1440px; /*ヘッダーの全体の幅*/
+    height: 80px; /*ヘッダーの高さ*/
+    display: flex; /*headerに入ってるやつ全部が横になる*/
+}
+
+.logo_header{
+    width: 148px; /*ヘッダーのロゴの幅*/
+    height: 27.53px; /*ヘッダーのロゴの高さ*/
+    padding: 20px 20px; /*ロゴのブラウザからの間隔*/
+}
+
+
+.list_nav_header{
+    width: 269px; /*ナビゲーションの横幅*/
+    display: flex; /*ナビゲーションを横並びにする*/
+    list-style: none;/*リストの丸ぽちを消す*/
+    justify-content: space-between; /*ナビゲーション同士の間隔*/
+    padding: 10px 20px; /**/
+    align-items: center; /**/
+    color: blue;
+}
+
+.nav_header{
+    display: inline-block;
+    display: flex;
+    margin-left: auto;
+
+}
+
+
+.list_icon_header{
+    display: flex; /*SNSのアイコンを横並びにする*/
+    list-style: none;/*リストの丸ぽちを消す*/
+    padding: 0;
+    gap: 15px;
+}
+
+
+/*トップビュー*/
+.section_topview{
+    width: 1440px;
+    height: 760px;
+    background-image: url('/assets/img/bg-mainvisual.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+
+.div_letter_main{
+    position: absolute;
+    top: 557px;
+    left: 230px;
+}
+
+.h1_letter{
+    background-color: white;
+    color: blue;
+    font-size: 24px;
+    width: 593px;
+    height: 43px;
+    margin-bottom: 12px;
+}
+
+.p1_letter{
+    background-color: white;
+    font-size: 60px;
+    width: 710px;
+    height: 108px;
+}
+
+.p2_letter:before{
+    content: "●";
+}
+
+.p2_letter{
+    color: white;
+    position: relative;
+    font-size: 14px;
+    top: 715px;
+    left: 1283px;
+}
+
+
+/*AboutPOSSE*/
+.section_aboutposse{
+    width: 980px;
+    height: 435px;
+    margin-left: 230px; /*マージンでごまかしてる。中央に置けてない；；*/
+}
+
+.div_title_main{
+    text-align: center;
+}
+
+h1{
+    font-size: 36px;
+    color: #333333;
+}
+
+h2{
+    font-size: 14px;
+    color: #0071bc;
+}
+
+.div_explain_main{
+    display: grid;
+    gap: 40px;
+    width: 980px;
+    height: 312px;
+    display: flex;
+   justify-content: center; /* 水平方向の中央揃え */
+    align-items: center;
+}
+
+
+.div_explain_main_img{
+    width: 479px;
+    height: 312px;
+    border-radius: 10px;
+
+}
+
+p{
+    font-size: 14px;
+    color: #333333;
+}
+
+
+/*イベント*/
+.div_title_event{
+    text-align: center;
+}
+
+.div_explain_event{
+    list-style: none;
+    display: flex;
+}
+
+.div_explain_event li{
+    width: 320px;
+    height: 200px;
+}
+
+
+
+
+/*フッター*/
+
+.logo_footer{
+    text-align: center;
+}
+
+.site_footer{
+    text-align: center;
+}
+
+.list_item_footer{
+    display: flex;
+    justify-content: center;
+}
+
+.small_footer{
+    text-align: center;
+}
